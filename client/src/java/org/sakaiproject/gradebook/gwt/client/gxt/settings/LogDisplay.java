@@ -171,7 +171,7 @@ public class LogDisplay extends ContentPanel {
 
 	private void afterHide() {
 		layer.hideShadow();
-		RootPanel.get("mainapp").remove(this);
+		RootPanel.get().remove(this);
 		slots.set(level, null);
 		push(this);
 	}
@@ -197,7 +197,7 @@ public class LogDisplay extends ContentPanel {
 	}
 	
 	private void onShowInfo(int x, int y) {
-		RootPanel.get("mainapp").add(this);
+		RootPanel.get().add(this);
 		el().makePositionable(true);
 
 		setTitle();

@@ -83,7 +83,6 @@
 	<classpathentry kind="var" path="M2_REPO/org/apache/pdfbox/pdfbox/1.7.0/pdfbox-1.7.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/pdfbox/fontbox/1.7.0/fontbox-1.7.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/pdfbox/jempbox/1.7.0/jempbox-1.7.0.jar"/>
-	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/bouncycastle/bcmail-jdk15/1.45/bcmail-jdk15-1.45.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/bouncycastle/bcprov-jdk15/1.45/bcprov-jdk15-1.45.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-stax-api_1.0_spec/1.0.1/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
@@ -103,8 +102,6 @@
 	<classpathentry kind="var" path="M2_REPO/com/google/gwt/gwt-servlet/2.5.0/gwt-servlet-2.5.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/com/google/gwt/gwt-user/2.5.0/gwt-user-2.5.0.jar"/>
 	<classpathentry kind="var" path="M2_REPO/net/sf/ehcache/ehcache-core/2.5.1/ehcache-core-2.5.1.jar"/>
-	<classpathentry kind="lib" path="dev/src/lib/slf4j-api-1.6.2.jar"/>
-	<classpathentry kind="lib" path="dev/src/lib/slf4j-log4j12-1.6.2.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-web/3.2.3.RELEASE/spring-web-3.2.3.RELEASE.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/3.2.3.RELEASE/spring-core-3.2.3.RELEASE.jar"/>
 	<classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/3.2.3.RELEASE/spring-context-3.2.3.RELEASE.jar"/>

@@ -112,7 +112,7 @@ public class ImportExportView extends View {
 				}
 			});		    
 			
-			RootPanel.get("mainapp").add(downloadFileForm);
+			RootPanel.get().add(downloadFileForm);
 			
 			downloadFileForm.submit();
 		

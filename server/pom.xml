@@ -4,7 +4,7 @@
 	<parent>
 		<artifactId>gradebook2-base</artifactId>
 		<groupId>org.sakaiproject.gradebook2</groupId>
-		<version>1.9.0-SNAPSHOT</version>
+		<version>1.9.1</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<name>Sakai Gradebook2 Server Side Code</name>
@@ -174,7 +174,7 @@
 			<version>1.1</version>
 			<type>jar</type>
 			<scope>compile</scope>
-		</dependency> 
+		</dependency>
 		
 		<dependency>
 			<groupId>org.apache.tika</groupId>
@@ -192,12 +192,6 @@
 			<artifactId>tika-parsers</artifactId>
 			<version>1.2</version>
 			<scope>compile</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.apache.cxf</groupId>
-					<artifactId>cxf-rt-rs-client</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 	</dependencies>
 	<build>

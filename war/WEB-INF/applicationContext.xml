@@ -88,7 +88,6 @@
 	<bean id="GradebookImportService" class="org.sakaiproject.gradebook.gwt.sakai.GradebookImportController">
 		<property name="gbToolService" ref="org.sakaiproject.gradebook.gwt.sakai.GradebookToolService"/>
 		<property name="service" ref="org.sakaiproject.gradebook.gwt.sakai.Gradebook2ComponentService"/>
-		<property name="commandClass" value="org.sakaiproject.gradebook.gwt.sakai.FileUploadBean"/>
 		<property name="importExportUtility" ref="org.sakaiproject.gradebook.gwt.server.ImportExportUtility"/>
 		<property name="i18n" ref="gradebook2.I18N"/>
 	</bean>
